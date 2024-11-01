@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700&family=Cormorant+Infant:ital,wght@0,300;0,400;0,500;0,600;0,700&family=Cormorant+Upright:wght@300;400;500;600;700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <title>Module</title>
+</head>
+<body>
+    <section class="icon-header row">
+        <!--Бокове меню з іконками соціальних мереж-->
+        <nav class="icon-menu col-12 col-sm-12 col-md-3 col-lg-3">
+            <img class="icon-menu__icon icon-menu__icon--twitter" src="img/twitter_icon.png" alt="">
+            <img class="icon-menu__icon icon-menu__icon--instagram" src="img/instagram_icon.png" alt="">
+            <img class="icon-menu__icon icon-menu__icon--facebook" src="img/facebook_icon.png" alt="">
+            <img class="icon-menu__icon icon-menu__icon--youtube" src="img/youTube_icon.png" alt="">
+        </nav>
+        <!-- header з меню та логотипом-->
+        <header class="header col-12 col-sm-12 col-md-9 col-lg-9">
+            <div class="header__title">
+                <h1 class="header__title-text">Гілдерой Локхарт</h1>
+                <p class="header__info">Відомий автор та письменник стародавності</p>
+            </div>
+            <div class="header__menu">
+                <div class="header__menu-links header__menu-links--left">
+                    <p class="header__menu-item"><a href="#pointAuthor">Про автора</a></p>
+                    <p class="header__menu-item"><a href="#pointContacts">Контакти</a></p>
+                </div>
+                <img class="header__menu-icon" src="img/book_icon.png" alt="">
+                <div class="header__menu-links header__menu-links--right">
+                    <p class="header__menu-item"><a href="#pointEvents">Події</a></p>
+                    <p class="header__menu-item"><a href="#pointBooks">Книги</a></p>
+                </div>
+            </div>
+        </header>
+    </section>
+    <section class="main-asides row">
+        <!--Додаткова інформація (Нагороди та Відзнаки)-->
+        <aside class="sidebar sidebar--awards col-12 col-sm-12 col-md-4 col-lg-3">
+            <h3 class="sidebar__title">Нагороди та Відзнаки</h3>
+            <p class="sidebar__info"><span class="sidebar__info--bold">Зірка Чарівного Чарівника</span> – за внесок у просвітництво маглів щодо основних засад захисту від темних істот.</p>
+            <p class="sidebar__info"><span class="sidebar__info--bold">Кришталеве Перо Великого Оповідача</span> – нагорода за видатні літературні досягнення та створення найнеймовірніших історій.</p>
+            <p class="sidebar__info"><span class="sidebar__info--bold">Орден Блискучої Посмішки</span> – від Міжнародної Ліги Чарівників за найчарівнішу усмішку серед усіх магічних письменників світу.</p>
+            <p class="sidebar__info"><span class="sidebar__info--bold">Медаль Срібного Словника</span> – за виняткове багатство мови, зокрема використання слів на кшталт "героїзм", "безстрашність" і "геній".</p>
+            <p class="sidebar__info"><span class="sidebar__info--bold">Почесний Орден Визволителя Гірських Тролів</span> – за успішну кампанію зі звільнення гірських тролів у Альпах (за його власним зізнанням).</p>
+            <p class="sidebar__info"><span class="sidebar__info--bold">Відзнака Сміливості в Битві з Привидами</span> – за легендарну перемогу над привидом, який буцімто переслідував його під час літньої подорожі до старовинного замку.</p>
+            <p class="sidebar__info"><span class="sidebar__info--bold">Золотий Кубок Пригод</span> – нагорода за видатні пригодницькі досягнення, вручена Асоціацією Магічних Авантюристів.</p>
+        </aside>
+        
+        <!--Основний контент повинен вміщувати, декілька блоків інформації з картинками.-->
+        <main class="main-content col-12 col-sm-12 col-md-8 col-lg-7">
+            <section class="bio-section">
+                <a id="pointAuthor"></a>
+                <h2 class="bio-section__title">Біографія</h2>
+                <div class="bio-section__info">
+                    <p class="bio-section__text">"Гілдерой Локхарт – видатний чарівник, автор численних бестселерів і майстер магічних мистецтв. Його ім'я стало символом хоробрості та невгамовного прагнення до перемоги над темними силами. Народився у сім'ї чарівників, Гілдерой із юних років виявляв цікавість до пригод, а його магічні здібності розвивалися блискавично. Здобув освіту в Гоґвортській школі чарів і чаклунства, де вперше проявив свій талант і харизму. Після закінчення школи Локхарт вирушив у незабутню подорож світом, під час якої знищив численні темні істоти, допоміг безлічі маглів і здобув чимало нагород. Його здобутки увічнені у численних книгах, кожна з яких стала справжнім бестселером. Сьогодні Гілдерой Локхарт є одним з найшанованіших чарівників у магічному суспільстві, а його твори надихають нове покоління юних чарівників на подвиги й відвагу!"</p>
+                    <img class="bio-section__image" src="img/bio.png" alt="">
+                </div>
+            </section>
+    
+            <section class="books-section">
+                <a id="pointBooks"></a>
+                <h2 class="books-section__title">Книги</h2>
+                <h3 class="books-section__item-title">"Мої магічні перемоги"</h3>
+                <p class="books-section__item-text">У цій книзі Гілдерой Локхарт розповідає про свої найвеличніші досягнення: від перемоги над тролями в Альпах до приборкання духів у древніх замках Шотландії. Прочитавши цю книгу, ви зрозумієте, чому Локхарт є найулюбленішим героєм сучасності.</p>
+                <h3 class="books-section__item-title">"Як я переміг перевертня"</h3>
+                <p class="books-section__item-text">Це захоплююча розповідь про те, як Гілдерой самотужки подолав зграю перевертнів, застосувавши свою геніальну тактику й безстрашність. Від хвилюючих моментів перетворення до приголомшливої перемоги – ця книга вражає і надихає.</p>
+                <h3 class="books-section__item-title">"Тропічні чари і як я їх підкорив"</h3>
+                <p class="books-section__item-text">Від екзотичних джунглів до вулканічних островів – Локхарт веде читача по слідах власних подвигів у тропічних країнах. Тут ви знайдете розповідь про битви з невідомими магічними істотами, а також про його неабиякі дипломатичні здібності, що допомогли йому здобути пошану місцевих чаклунів.</p>
+            </section>
+    
+            <section class="events-section">
+                <a id="pointEvents"></a>
+                <h2 class="events-section__title">Події</h2>
+                <div class="events-section__meet">
+                    <div class="events-section__meet-info">
+                        <h3 class="events-section__meet-title">Зустрічі з читачами:</h3>
+                        <p class="events-section__meet-text">Гілдерой Локхарт проводить регулярні автограф-сесії в провідних магічних книгарнях. Приєднуйтесь до наступної зустрічі, щоб отримати підпис від самого маестро чарівних пригод!</p>
+                    </div>
+                    <img class="events-section__meet-image" src="img/meet.png" alt="">
+                </div>
+    
+                <div class="events-section__magic">
+                    <div class="events-section__magic-info">
+                        <h3 class="events-section__magic-title">Майстер-класи з магічної досконалості:</h3>
+                        <p class="events-section__magic-text">Локхарт ділиться своїми секретами успіху в чарівному мистецтві. Чи це ваші перші кроки у магії, чи ви вже досвідчений чаклун – цей майстер-клас надихне вас на нові досягнення.</p>
+                    </div>
+                    <img class="events-section__magic-image_1" src="img/magic_1.png" alt="">
+                    <img class="events-section__magic-image_2" src="img/magic_2.png" alt="">
+                </div>
+            </section>
+    
+            <section class="contacts-section">
+                <a id="pointContacts"></a>
+                <h2 class="contacts-section__title">Контакти</h2>
+                <h3 class="contacts-section__response">Зв’яжіться з Гілдероєм Локхартом, вашим улюбленим автором чарівних пригод!</h3>
+                <p class="contacts-section__info">E-mail: gil.lokhart@magicmail.com</p>
+                <p class="contacts-section__info">Поштова сова: Відправляйте листи на адресу: Лондон, Провулок Чарівників, буд. 9¾, офіс Гілдероя Локхарта, для вручення особисто</p>
+                <p class="contacts-section__info">Чарівний телефон: +44 (0)777-CHARMS (застереження: працює лише в магічних зонах)</p>
+                <p class="contacts-section__info--feedback">"Залиште свої побажання та відгуки у формі нижче – Гілдерой обов'язково відповість найвідданішим шанувальникам!"</p>
+            </section>
+        </main>
+    
+        <!--Додаткова інформація (Відгуки)-->
+        <aside class="sidebar sidebar--reviews col-12 col-sm-12 col-md-12 col-lg-2">
+            <h3 class="sidebar__title">Відгуки</h3>
+            <p class="sidebar__info">"Локхарт – не просто автор, він – легенда! Ще жодного разу не розчарував своїх шанувальників." — <span class="sidebar__info--bold">Магічна Література</span></p>
+            <p class="sidebar__info">"Кожна сторінка його книг вражає уяву! Від них не можна відірватися." — <span class="sidebar__info--bold">Чарівний Тижневик</span></p>
+            <p class="sidebar__info">"Гілдерой Локхарт уміє описати свої подвиги з такою живістю, що сам відчуваєш себе учасником його пригод!" — <span class="sidebar__info--bold">Часопис Чарівників</span></p>
+            <p class="sidebar__info">"Геній слова та магії. Здавалося б, історія – звичайна, але з його вуст вона стає легендою!" — <span class="sidebar__info--bold">Міжнародна Ліга Читачів</span></p>
+            <p class="sidebar__info">"Локхарт – наш герой, майстер і натхненник! Якби таких письменників було більше!" — <span class="sidebar__info--bold">Щоденник Юного Чарівника</span></p>
+        </aside>
+    </section>
+    
+    <!--Футер-->
+    <footer class="footer col-12 col-sm-12 col-md-12 col-lg-12">
+        <h3 class="footer__copyright">@Гілдерой Локхарт. Усі права захищено</h3>
+        <img class="footer__icon" src="img/book_icon.png" alt="">
+        <h3 class="footer__motto">"Живіть зі сміливістю та стильністю – як у моїх книгах!"</h3>
+    </footer>
+</body>
+</html>

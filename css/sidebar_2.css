@@ -1,0 +1,34 @@
+.Sidebar_2 {
+    flex-basis: 20%;
+}
+
+.sidebar__info {
+    margin: 0;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    text-align: justify;
+    color: #A98262;
+    font-size: 16px;
+}
+
+.sidebar__info--bold {
+    font-style: italic;
+    font-weight: bold;
+}
+
+.sidebar__title {
+    text-align: center;   
+    margin-top: 30px; 
+}
+
+@media(max-width: 992px) {
+    .Sidebar_2 {
+        margin-top: 10px;
+        flex-basis: 100%;
+    }
+    .sidebar__info {
+        margin: 0;
+        text-align: center;
+    }
+}

@@ -1,0 +1,72 @@
+.icon-menu {
+    padding: 0;
+    margin: 0;
+    width: auto;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto;
+    gap: 20px;
+    align-items: center;
+    justify-items: center;  
+    flex-basis: 24%;
+}
+
+.icon-menu__icon {
+    width: 60px;
+    height: 60px;
+    transition: transform 0.3s ease;
+}
+
+.icon-menu__icon:hover {
+    transform: scale(0.75);
+} 
+
+.icon-menu__icon--twitter, .icon-menu__icon--instagram {
+    margin-top: 30px;
+}
+
+.icon-menu__icon--twitter, .icon-menu__icon--facebook {
+    margin-left: 100px;
+}
+
+.icon-menu__icon--instagram, .icon-menu__icon--youtube {
+    margin-left: 10px;
+    margin-right: 90px;
+}
+
+.icon-menu__icon--facebook, .icon-menu__icon--youtube {
+    margin-bottom: 30px;
+}
+
+/* Додаткові стилі для адаптивності */
+@media(max-width: 992px) {
+    .header__title-text {
+        font-size: 56px;
+    }
+    .header__info, a {
+        font-size: 20px;
+    }
+    .icon-menu__icon {
+        width: 50px;
+        height: 50px;
+    }
+
+    .icon-menu__icon--twitter, .icon-menu__icon--facebook {
+        margin-left: 20px;
+    }
+    
+    .icon-menu__icon--instagram, .icon-menu__icon--youtube {
+        margin-right: 30px;
+    }
+
+    .icon-menu {
+        padding-right: 0px;
+    }
+}
+
+@media(max-width: 768px) {
+    .icon-menu__icon--instagram, .icon-menu__icon--youtube {
+        margin-left: 0px;
+    }
+}

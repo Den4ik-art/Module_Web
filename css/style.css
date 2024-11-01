@@ -1,0 +1,88 @@
+@import url("header.css");
+@import url("nav.css");
+@import url("sidebar_1.css");
+@import url("sidebar_2.css");
+@import url("main.css");
+@import url("footer.css");
+
+body {
+    background-color: #E6D8CB;
+    width: 1440px;
+    height: auto;
+    font-family: "Cormorant Garamond", serif;
+    padding: 0;
+    margin: 0;
+}
+
+.icon-header, .main-asides {
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+h1 {
+    font-size: 72px;
+    font-weight: bold;
+    color: #785035;
+    height: auto;
+    margin: 0;
+}
+
+h2 {
+    color: #785035;
+    opacity: 90%;
+    font-size: 40px;
+    font-style: italic;
+    font-weight: bold;
+    margin: 0;
+    margin-bottom: 20px;
+    text-align: center; 
+}
+
+h3 {
+    font-size: 24px;
+    font-style: italic;
+    font-weight: bold;
+    color: #734B34;
+    height: auto;
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+a {
+    margin: 0;
+    font-size: 24px;
+    color: #A98262;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #785035;
+    text-decoration: underline;
+}
+
+nav, header, aside, main, footer {
+    padding: 0;
+}
+
+@media(max-width: 992px) {
+    h1 {
+        font-size: 54px;
+    }
+
+    h3 {
+        margin-bottom: 10px; 
+    }
+
+    body {
+        width: auto;
+    }
+}
+
+
+@media(max-width: 768px) {
+    .icon-header {
+        justify-content: center;
+        align-items: center;
+    }
+}
